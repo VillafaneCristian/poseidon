@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    background-color: #FDF0E0;
+    padding: 30px;
+}
+
+.footerSection{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    
+}
+
+.footerSection-logo{
+    text-align: center;
+}
+
+.footerSection-logo img{
+    width: 70%;
+}
+
+.footerSection-newsletter h3{
+    margin-bottom: 20px;
+}
+
+.footerSection-newsletter-form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerSection-newsletter-form input{
+    margin-bottom: 20px;
+}

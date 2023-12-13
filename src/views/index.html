@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/css/header-styles.css">
+    <link rel="stylesheet" href="/css/main-banner-styles.css">
+    <link rel="stylesheet" href="/css/footer-styles.css">
+    <link rel="stylesheet" href="/css/main-offerSection-styles.css">
 
     <script src="https://kit.fontawesome.com/b41aef2bcc.js" crossorigin="anonymous"></script>
 
@@ -15,7 +18,9 @@
 
     <!--INICIO DEL HEADER-->
     <header>
-        <marquee class="header-marquee" behavior="" direction="">¡ENVIOS A TODO EL PAIS!</marquee>
+        <div class="header-marquee">
+            <marquee behavior="alternate" direction="right">¡ENVIOS A TODO EL PAIS!</marquee>
+        </div>
         <div class="header-main">
             <section class="header-topSection">
                 <article class="header-topSection-SocialNetworks">
@@ -64,13 +69,82 @@
 
     <main>
 
+        <!--INICIO DEL BANNER-->
+            <div class="main-banner">
+                <img src="/images/header-banner/banner1.jpg" alt="imagen del banner">
+            </div>
+        <!--FIN DEL BANNER-->
+
+        <!--INICIO SECCION OFERTAS-->
+            <section class="main-offerSection">
+                <h3 class="main-offerSection-tittle">OFERTAS</h3>
+                <div class="main-offerSection-div">
+                    <article class="main-offerSection-article">
+                        <img src="/images/products/remera.jpg" alt="remera" class="main-offerSection-image">
+                        <p class="main-offerSection-description">Remera manga corta</p>
+                        <p class="main-offerSection-price">$15000</p>
+                    </article>
+                    <article class="main-offerSection-article">
+                        <img src="/images/products/remera.jpg" alt="remera" class="main-offerSection-image">
+                        <p class="main-offerSection-description">Remera manga corta</p>
+                        <p class="main-offerSection-price">$15000</p>
+                    </article>
+                    <article class="main-offerSection-article">
+                        <img src="/images/products/remera.jpg" alt="remera" class="main-offerSection-image">
+                        <p class="main-offerSection-description">Remera manga corta</p>
+                        <p class="main-offerSection-price">$15000</p>
+                    </article>
+                    <article class="main-offerSection-article">
+                        <img src="/images/products/remera.jpg" alt="remera" class="main-offerSection-image">
+                        <p class="main-offerSection-description">Remera manga corta</p>
+                        <p class="main-offerSection-price">$15000</p>
+                    </article>
+                </div>
+            </section>
+        <!--FIN SECCCION OFERTAS-->
 
     </main>
 
 
     <footer>
-
-
+        <section class="footerSection">
+            <article class="footerSection-newsletter">
+                <h3>SUSCRIBITE AL NEWSLETTER</h3>
+                <form action="">
+                    <div class="footerSection-newsletter-form">
+                        <input type="text" name="" id="" placeholder="Nombre">
+                        <input type="E-Mail" placeholder="E-Mail">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </article>
+            <article class="footerSection-aboutUs">
+                <h3>SOBRE NOSOTROS</h3>
+                    <ul>
+                        <li><a>¿Quienes somos?</a></li>
+                        <li><a>Sucursales</a></li>
+                        <li><a>Terminos y Condiciones</a></li>
+                        <li><a>Trabajá con nosotros</a></li>
+                        <li><a>Contacto</a></li>
+                    </ul>
+            </article>
+            <article class="footerSection-information">
+                <h3>INFORMACION</h3>
+                    <ul>
+                        <li><a>Talles</a></li>
+                        <li><a>Promociones de compra</a></li>
+                        <li><a>¿Cómo Comprar?</a></li>
+                        <li><a>Formas de pago</a></li>
+                        <li><a>Costos y formas de envío</a></li>
+                        <li><a>Garantías</a></li>
+                        <li><a>Politicas de cambio</a></li>
+                        <li><a>Peguntas Frecuentes</a></li>
+                    </ul>
+            </article>
+            <article class="footerSection-logo">
+                <img src="/images/logo/logo.jpg" alt="Logo en el footer">
+            </article>
+        </section>
     </footer>
 </body>
 </html>

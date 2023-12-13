@@ -34,10 +34,20 @@
 }
 
 
+
 @media(min-width: 769px){
 
     .header-main{
         display: block;
+    }
+
+    .header-marquee{
+        text-align: center;
+    }
+
+    .header-marquee marquee{
+        max-width: 1200px;
+        font-weight: bold;
     }
     
     .header-bottomSection-mobile{
@@ -66,8 +76,27 @@
     .header-topSection{
         display: flex;
         justify-content: space-around;
+        align-items: center;
         background-color: #2146c7;
         padding: 10px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .header-topSection-SocialNetworks i, .header-topSection-Icons i{
+        color: #FFFFFF;
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    .header-topSection-searchBar{
+        width: 35%;
+    }
+
+    .header-topSection-searchBar input{
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
     }
 
 }

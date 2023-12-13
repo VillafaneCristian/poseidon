@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-offerSection{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.main-offerSection-div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main-offerSection-article{
+    width: 250px;
+    text-align: center;
+    border: 1px solid #000000;
+    margin: 10px;
+}
+
+.main-offerSection-image{
+    width: 90%;
+}
