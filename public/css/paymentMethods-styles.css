@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.paymentMethods-Section{
+    display: none;
+}
+
+@media (min-width:769px){
+
+    .paymentMethods-Section{
+    max-width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E6CBAB;
+    padding: 10px;
+    }
+
+    .paymentMethods-Section-images img{
+        margin: 0 15px;
+    }
+
+}
