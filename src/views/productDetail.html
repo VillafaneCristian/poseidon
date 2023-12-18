@@ -1,12 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>PAGINA DEL PRODUCTDETAIL</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/css/header-styles.css" />
+    <link rel="stylesheet" href="/css/main-banner-styles.css" />
+    <link rel="stylesheet" href="/css/footer-styles.css" />
+    <link rel="stylesheet" href="/css/paymentMethods-styles.css">
+    <link rel="stylesheet" href="/css/productDetail-styles.css" />
+
+    <script
+      src="https://kit.fontawesome.com/b41aef2bcc.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>DETALLE DE PRODUCTO</title>
+  </head>
+  <body>
+    <!--INICIO DEL HEADER-->
+    <header>
+      <div class="header-marquee">
+        <marquee behavior="alternate" direction="right"
+          >¡ENVIOS A TODO EL PAIS!</marquee
+        >
+      </div>
+      <div class="header-main">
+        <section class="header-topSection">
+          <article class="header-topSection-SocialNetworks">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-whatsapp"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </article>
+          <article class="header-topSection-searchBar">
+            <form action="">
+              <input type="text" placeholder="ingrese lo que desea buscar" />
+            </form>
+          </article>
+          <article class="header-topSection-Icons">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </article>
+        </section>
+
+        <section class="header-mediumSection">
+          <article class="header-mediumSection-logo">
+            <img src="/images/logo/logo.jpg" alt="Logo" />
+          </article>
+        </section>
+
+        <section class="header-bottomSection">
+          <article class="header-bottomSection-mobile">
+            <i class="fa-solid fa-bars"></i>
+          </article>
+          <article class="header-bottomSection-desktop">
+            <nav>
+              <ul class="header-bottonSection-desktop-nav">
+                <li><a href="">INICIO</a></li>
+                <li><a href="">NOSOTROS</a></li>
+                <li><a href="">HOMBRES</a></li>
+                <li><a href="">NIÑOS</a></li>
+                <li><a href="">CONTACTO</a></li>
+              </ul>
+            </nav>
+          </article>
+        </section>
+      </div>
+    </header>
+
+    <!--FIN DEL HEADER-->
+
+    <main>
+      <!--INICIO DEL BANNER-->
+      <div class="main-banner">
+        <img src="/images/header-banner/banner1.jpg" alt="imagen del banner" />
+      </div>
+      <!--FIN DEL BANNER-->
+
+      <section class="productDetail-container">
+        <article class="productDetail-image-description">
+            <div class="productDetail-image">
+                <img src="/images/products/remera.jpg" alt="imagen de producto">
+            </div>
+            <div class="productDetail-description">
+                <h1>REMERA ALGODON</h1>
+                <p>Precio: $15000</p>
+                <p>TALLES: S-M-L-XL-XXL</p>
+                <button type="submit">AGREGAR AL CARRITO</button>
+            </div>
+        </article>
+        <article class="productDetail-detail">
+          <h3>DETALLES:</h3>  
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A id iure
+            fuga dicta consequuntur voluptatibus cumque officia nemo. Id
+            repellat ipsum sed nobis iusto voluptate consequatur, vitae
+            exercitationem asperiores aut. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Molestias nulla, repudiandae assumenda
+            fuga suscipit aliquid eos tenetur accusantium qui. Ullam magnam ab
+            hic in minus totam cum doloribus minima harum?
+            Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Molestias nulla, repudiandae assumenda
+            fuga suscipit aliquid eos tenetur accusantium qui. Ullam magnam ab
+            hic in minus totam cum doloribus minima harum?
+          </p>
+        </article>
+      </section>
+
+      <!--INICIO SECCION MEDIOS DE PAGO-->
+      <section class="paymentMethods-Section">
+        <p class="paymentMethods-Section-copy">Medios de pago</p>
+        <div class="paymentMethods-Section-images">
+            <img src="/images/creditCards/visa.jpg" alt="">
+            <img src="/images/creditCards/masterCard.jpg" alt="">
+            <img src="/images/creditCards/cabal.jpg" alt="">
+            <img src="/images/creditCards/maestro.jpg" alt="">
+            <img src="/images/creditCards/dinnersClub.jpg" alt="">
+            <img src="/images/creditCards/americanExpress.jpg" alt="">
+        </div>
+        <p class="paymentMethods-Section-copy">Medios de pago</p>
+      </section>
+      <!--FIN SECCION MEDIOS DE PAGO-->
+
+      <!--INICIO DEL BANNER-->
+        <div class="main-banner">
+            <img src="/images/index-main-banner/imagen1.jpg" alt="imagen del banner">
+        </div>
+        <!--FIN DEL BANNER-->
+        </main>
+
+    <footer>
+      <section class="footerSection">
+        <article class="footerSection-newsletter">
+          <h3>SUSCRIBITE AL NEWSLETTER</h3>
+          <form action="">
+            <div class="footerSection-newsletter-form">
+              <input type="text" name="" id="" placeholder="Nombre" />
+              <input type="E-Mail" placeholder="E-Mail" />
+              <button type="submit">Enviar</button>
+            </div>
+          </form>
+        </article>
+        <article class="footerSection-aboutUs">
+          <h3>SOBRE NOSOTROS</h3>
+          <ul>
+            <li><a>¿Quienes somos?</a></li>
+            <li><a>Sucursales</a></li>
+            <li><a>Terminos y Condiciones</a></li>
+            <li><a>Trabajá con nosotros</a></li>
+            <li><a>Contacto</a></li>
+          </ul>
+        </article>
+        <article class="footerSection-information">
+          <h3>INFORMACION</h3>
+          <ul>
+            <li><a>Talles</a></li>
+            <li><a>Promociones de compra</a></li>
+            <li><a>¿Cómo Comprar?</a></li>
+            <li><a>Formas de pago</a></li>
+            <li><a>Costos y formas de envío</a></li>
+            <li><a>Garantías</a></li>
+            <li><a>Politicas de cambio</a></li>
+            <li><a>Peguntas Frecuentes</a></li>
+          </ul>
+        </article>
+        <article class="footerSection-logo">
+          <img src="/images/logo/logo.jpg" alt="Logo en el footer" />
+        </article>
+      </section>
+    </footer>
+  </body>
 </html>

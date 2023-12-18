@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.productCart-table{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.productCart-table-tittleRow th{
+    border-bottom: 1px solid #000000;
+}
+
+.productCart-table-detailColumn img{
+    width: 60px;
+}
+
+
+
+th, td{
+    padding: 10px;
+}
+
+form{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+@media (min-width: 769px){
+
+    .productCart-table-detailColumn img{
+        width: 100px;
+    }
+
+}
+
